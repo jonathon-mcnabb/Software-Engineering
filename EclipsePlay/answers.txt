@@ -1,0 +1,4 @@
+Names: Jonathon McNabb & Carter Pasqualini
+1.) Reverts file back to a base state. 
+2.) The loop calls the to-string method for all friends in arraylist people
+3.) The loop now prints name of the class followed by an @ sign with a hexadecimal representation of the memory location. 

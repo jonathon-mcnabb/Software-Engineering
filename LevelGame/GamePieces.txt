@@ -1,0 +1,14 @@
+Jonathon McNabb
+Carter Pasqualini
+
+implements drawable (no interaction, so doesn't extends GamePiece)
+- ROCK. (Looks like a O and just sits there).
+extends GamePiece, implements Moveable
+- Fly. Moves right until it can't move right anymore. Begins moving left. Continues moving all the way right and all the way left until level is over. 
+- Super Shiny Star. Moves to a random location after each time the player moves
+extends GamePiece, various InteractionResult
+- NONE.Fly (Will make buzzing noise if within 2 spaces of player)
+- HIT.StickWackingGuy (if the player is at the same location, HIT)
+- KILL. Spikes(will kill if on same location as player)
+- ADVANCE. WilliamHoff (If you move to same place as WilliamHoff, you win the level. 
+- GET_POINT.SuperShinyStar (Awards a point if the star is in same location as player)
